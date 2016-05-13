@@ -1,23 +1,33 @@
-.navbar-nav{
+.navbar-nav {
   float: right;
 }
-
-.jumbotron{
-	background: url(../img/rainbow.jpg) no-repeat top center;
-  height:500px;
-	overflow:none;
+.jumbotron {
+  background: url(../img/rainbow.jpg) no-repeat top center;
+  height: 500px;
+  overflow: none;
   text-align: center;
   color: white;
+  margin-bottom: 5px;
 }
-.jumbotron-special{
+.btn {
+  background-color: orange;
+}
+.jumbotron-special {
   background: none;
-    margin-top: 0px;
-    width:100%;
-     height: 1400px;
-     background-color: white;
-     color: black;
-     padding:0px;
-     margin:0px;
-     opacity: 0.7;
-     text-align: center;
+  margin-top: 0px;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  opacity: 0.7;
+  text-align: center;
+}
+section {
+  margin-top: 0;
+}
+#middle {
+  background-color: #282723;
+
 }
