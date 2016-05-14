@@ -41,7 +41,7 @@
         <div class="col-md-12">
           <h1>Lorem ipsum dolor sit amet</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn">Read More</a>
         </div>
       </div>
     </div>
@@ -59,26 +59,83 @@
   </div>
 
   <section id="middle">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 one">
+    <h1>Lorem ipsum</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 one">
+          <div class="box-1">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
-          <div class="col-md-4 two">
+        </div>
+        <div class="col-md-4 two">
+          <div class="box-2">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
-          <div class="col-md-4 three">
+        </div>
+        <div class="col-md-4 three">
+          <div class="box-3">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <form>
+    <h1>Contact Us</h1>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 form-control-label">First Name *</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="First Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 form-control-label">Last Name *</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 form-control-label">Email *</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 form-control-label">Contact Number</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Contact Number">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 form-control-label">Message</label>
+    <div class="col-md-10">
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <!-- <label class="col-sm-2">Checkbox</label> -->
+    <div class="col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-secondary">Submit</button>
+    </div>
+  </div>
+</form>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>

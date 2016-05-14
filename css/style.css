@@ -28,15 +28,43 @@ section {
   margin-top: 0;
 }
 #middle {
+  overflow: none height: 300px;
   background-color: #282723;
-
 }
-.one{
-  background-color: blue
+#middle h1{
+  text-align: center;
+  color: white;
+  margin-top: 3%;
 }
-.two{
-  background-color: green
+.box-1 {
+  width: 75%;
+  margin: 25% 5% 5% 5%;
+  background-color: blue;
 }
-.three{
-  background: pink;
+.box-2 {
+  width: 75%;
+  margin: 25% 10% 10% 10%;
+  background-color: green;
+}
+.box-3 {
+  width: 75%;
+  margin: 25% 10% 10% 10%;
+  background-color: pink;
+}
+form h1{
+  text-align: center;
+}
+.form-group{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+}
+.checkbox{
+  margin-left: 20%;
+  float: left;
+}
+.btn-secondary{
+  margin-left: 20%;
+  float: left;
 }
