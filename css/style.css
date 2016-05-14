@@ -28,7 +28,7 @@ section {
   margin-top: 0;
 }
 #middle {
-  overflow: none height: 300px;
+  overflow: none;
   background-color: #282723;
 }
 #middle h1{
@@ -55,9 +55,10 @@ form h1{
   text-align: center;
 }
 .form-group{
+  width: 55%;
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 10px;
 }
 .checkbox{
@@ -67,4 +68,14 @@ form h1{
 .btn-secondary{
   margin-left: 20%;
   float: left;
+}
+footer{
+  color: white;
+  width: 100%;
+  height: 40px;
+  background-color: #282723;
+  margin-bottom: 0;
+}
+footer p{
+  margin-top: 10px;
 }
