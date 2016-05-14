@@ -39,46 +39,54 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Lorem ipsum dolor sit amet</h1>
+          <h1>lorem ipsum dolor sit amet</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <a href="#" class="btn">Read More</a>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="jumbotron jumbotron-special">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3">lorem ipsum</h1>
+      <p class="lead">Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  <!-- <div class="jumbotron jumbotron-special">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Lorem ipsum dolor sit amet</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1>lorem ipsum </h1>
+          <p>  Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>
+            Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <section id="middle">
-    <h1>Lorem ipsum</h1>
+    <h1>lorem ipsum</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-4 one">
           <div class="box-1">
-            <h2>Lorem Ipsum</h2>
+            <h2>lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
         </div>
         <div class="col-md-4 two">
           <div class="box-2">
-            <h2>Lorem Ipsum</h2>
+            <h2>lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
         </div>
         <div class="col-md-4 three">
           <div class="box-3">
-            <h2>Lorem Ipsum</h2>
+            <h2>lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
