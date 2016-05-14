@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Starter Template for Bootstrap</title>
-
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <link href="css/bootstrap.css" rel="stylesheet">
 
   <link href="css/style.css" rel="stylesheet">
