@@ -1,3 +1,11 @@
+<?php session_start();
+
+require_once 'helpers/security.php';
+
+
+$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
+$fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
+?>
 <html lang="en">
 
 <head>
@@ -80,36 +88,36 @@
     </div>
   </section>
 
-  <form>
+  <form action="contact.php" method="post">
     <h1>Contact Us</h1>
     <div class="form-group row">
       <label for="inputEmail3" class="col-sm-2 form-control-label">First Name</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="inputEmail3" placeholder="First Name">
+          <input type="text" name="name" class="form-control" id="inputPassword3" placeholder="Last Name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="' . e($fields['name']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
       <label for="inputPassword3" class="col-sm-2 form-control-label">Last Name</label>
       <div class="col-sm-10">
-        <input type="last-name" class="form-control" id="inputPassword3" placeholder="Last Name">
+        <input type="text" name="last" class="form-control" id="inputPassword3" placeholder="Last Name"<?php echo isset($fields['last']) ? 'value="' . e($fields['last']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
       <label for="inputPassword3" class="col-sm-2 form-control-label">Email</label>
       <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputPassword3" placeholder="Email">
+        <input type="text" name="email" autocomplete="off" class="form-control" id="inputPassword3" placeholder="email" <?php echo isset($fields['email']) ? 'value="' . e($fields['email']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
       <label for="inputPassword3" class="col-sm-2 form-control-label">Contact Number</label>
       <div class="col-sm-10">
-        <input type="number" class="form-control" id="inputPassword3" placeholder="Contact Number">
+        <input type="text" name="contact" class="form-control" id="inputPassword3" placeholder="Contact Number"<?php echo isset($fields['contact']) ? 'value="' . e($fields['contact']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
       <label for="inputPassword3" class="col-sm-2 form-control-label">Message</label>
       <div class="col-md-10">
-        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          <textarea name="message" rows="8"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
       </div>
     </div>
     <div class="form-group row">
@@ -123,11 +131,43 @@
     </div>
     <div class="form-group row">
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <input type="submit" value="send">
       </div>
+    </div>
+    <div class="panel">
+      <!-- errors will go here -->
     </div>
   </form>
 
+<div class="contect">
+  <?php if(!empty($errors)); ?>
+  <div class="panel">
+    <ul><li><?php echo implode('</li><li>', $errors) ?></li></ul>
+  </div>
+
+
+
+
+  <!-- <form action="contact.php" method="post">
+    <label>
+      your name *
+      <input type="text" name="name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="' . e($fields['name']) . '"' : ''?>>
+    </label>
+    <label>
+      your email address *
+      <input type="text" name="email" autocomplete="off" <?php echo isset($fields['email']) ? 'value="' . e($fields['email']) . '"' : ''?>>
+    </label>
+    <label>
+      your message *
+      <textarea name="message" rows="8"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
+    </label>
+    <p class="muted">* means a required fileds
+
+    </p>
+
+    <input type="submit" value="send">
+  </form>
+  </div> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
@@ -147,5 +187,9 @@
 
   </div>
 </footer>
-
 </html>
+<?php
+ unset($_SESSION['error']);
+ unset($_SESSION['fields']);
+
+ ?>
