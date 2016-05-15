@@ -1,4 +1,4 @@
-#Instruction
+#Instructions
 
 install xampp from:
 ```
@@ -12,7 +12,16 @@ git clone git@github.com:jrose111284/bandv.git
 in web browser type:
 ```
 http://localhost:8888/bandv/index.php
+
 ```
+
+#Alternative way to view
+
+I uploaded it to heroku if you dont want to Clone
+```
+https://evening-thicket-97313.herokuapp.com/
+```
+
 #Example of what i had to build
 
 ![example](/img/example.png "example")
