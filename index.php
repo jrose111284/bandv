@@ -1,10 +1,9 @@
 <?php session_start();
 
-require_once 'helpers/security.php';
+  require_once 'helpers/security.php';
 
-
-$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
-$fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
+  $errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
+  $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
 ?>
 <html lang="en">
 
@@ -117,21 +116,14 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
     <div class="form-group row">
       <label for="inputPassword3" class="col-sm-2 form-control-label">Message</label>
       <div class="col-md-10">
-          <textarea name="message" rows="8"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
+          <textarea name="message" class="form-control" id="exampleTextarea" rows="3"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
       </div>
     </div>
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Check me out
-          </label>
-        </div>
-      </div>
-    </div>
+
     <div class="form-group row">
       <div class="col-sm-offset-2 col-sm-10">
-        <input type="submit" value="send">
+        <button type="submit" value="send" class="btn btn-warning">Submit</button>
+        <!-- <input type="submit" value="send"> -->
       </div>
     </div>
     <div class="panel">
@@ -139,35 +131,12 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
     </div>
   </form>
 
-<div class="contect">
-  <?php if(!empty($errors)); ?>
-  <div class="panel">
-    <ul><li><?php echo implode('</li><li>', $errors) ?></li></ul>
+  <div class="contact">
+    <?php if(!empty($errors)); ?>
+      <div class="panel">
+        <ul><li><?php echo implode('</li><li>', $errors) ?></li></ul>
+      </div>
   </div>
-
-
-
-
-  <!-- <form action="contact.php" method="post">
-    <label>
-      your name *
-      <input type="text" name="name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="' . e($fields['name']) . '"' : ''?>>
-    </label>
-    <label>
-      your email address *
-      <input type="text" name="email" autocomplete="off" <?php echo isset($fields['email']) ? 'value="' . e($fields['email']) . '"' : ''?>>
-    </label>
-    <label>
-      your message *
-      <textarea name="message" rows="8"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
-    </label>
-    <p class="muted">* means a required fileds
-
-    </p>
-
-    <input type="submit" value="send">
-  </form>
-  </div> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
