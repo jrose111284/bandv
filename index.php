@@ -5,13 +5,15 @@
   $errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
   $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : [];
 ?>
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Starter Template for Bootstrap</title>
+  <title>Home</title>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -29,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="pull-left"><img src="img/logo.png"></a>
+        <a href="index.php" class="pull-left"><img src="img/logo.png"></a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">About</a></li>
-          <li><a href="#about">Services</a></li>
-          <li><a href="#about">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="active"><a href="index.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="https://www.b-v.co.uk/contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -48,7 +50,7 @@
         <div class="col-md-12">
           <h1>lorem ipsum dolor sit amet</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a href="#" class="btn btn-primary">Read More</a>
+          <a href="blog.php" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -66,21 +68,21 @@
           <div class="box-1">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="#" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default">Read More</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="box-2">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="#" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default">Read More</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="box-3">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="#" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default">Read More</a>
           </div>
         </div>
       </div>

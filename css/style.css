@@ -56,7 +56,6 @@ html {
   opacity: 0.7;
   text-align: center;
   font-family: 'Open Sans';
-  text-align: center;
   color: black;
 }
 section {
@@ -110,8 +109,12 @@ form h1 {
   float: left;
 }
 .btn-warning {
-  /*margin-left: 40%;*/
   float: left;
+}
+.contact{
+  font-family: 'Open Sans';
+  /*vertical-align: middle;*/
+  text-align: center;
 }
 footer {
   color: white;
