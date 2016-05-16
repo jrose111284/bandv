@@ -28,9 +28,9 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.php">About</a></li>
+          <li><a href="index.php">About</a></li>
           <li><a href="services.php">Services</a></li>
-          <li><a href="blog.php">Blog</a></li>
+          <li class="active"><a href="blog.php">Blog</a></li>
           <li><a href="https://www.b-v.co.uk/contact">Contact</a></li>
         </ul>
       </div>
@@ -49,13 +49,8 @@
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-  </script>
-  <script src="../../dist/js/bootstrap.min.js"></script>
-
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 
 
 </body>
