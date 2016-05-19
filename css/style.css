@@ -4,6 +4,10 @@ html {
 }
 .navbar-nav {
   float: right;
+  margin-top: 3%;
+}
+.logo{
+  margin-top: 17%;
 }
 .jumbotron .btn {
   margin-bottom: 10px;
