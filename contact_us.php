@@ -48,11 +48,6 @@
   <h3><span class="label label-default">Where To Find Us</span></h3>
     <div class="row">
       <div class="col-md-6">
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10061.961571706872!2d-1.361399!3d50.9146449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8d43421abd1eb64!2sbandv!5e0!3m2!1sen!2suk!4v1463671429747" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-6">
         <div class="us">
       <p>
         More than anything, we want to find out what’s holding you back from achieving your business goals. We’d like to fully understand your current marketing strategy, the challenges your company is facing, and most importantly, determine what we can do to help.</p>
@@ -85,8 +80,13 @@
 
         </div>
       </div>
+      <div class="col-md-6">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10061.961571706872!2d-1.361399!3d50.9146449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8d43421abd1eb64!2sbandv!5e0!3m2!1sen!2suk!4v1463671429747" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-    
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
 
