@@ -38,7 +38,7 @@
           <li class="active"><a href="index.php">About</a></li>
           <li><a href="services.php">Services</a></li>
           <li><a href="blog.php">Blog</a></li>
-          <li><a href="https://www.b-v.co.uk/contact">Contact</a></li>
+          <li><a href="contact_us.php">Contact</a></li>
         </ul>
       </div>
     </div>
