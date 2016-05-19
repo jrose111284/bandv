@@ -128,17 +128,13 @@
         <!-- <input type="submit" value="send"> -->
       </div>
     </div>
-    <div class="panel">
-      <!-- errors will go here -->
-    </div>
+        <div class="panel">
+          <?php if(!empty($errors)); ?>
+          <!-- <ul><li> -->
+            <?php echo implode('</li><li>', $errors) ?>
+          <!-- </li></ul> -->
+        </div>
   </form>
-
-  <div class="contact">
-    <?php if(!empty($errors)); ?>
-      <div class="panel">
-        <ul><li><?php echo implode('</li><li>', $errors) ?></li></ul>
-      </div>
-  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>

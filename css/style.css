@@ -112,7 +112,7 @@ form h1 {
 .btn-warning {
   float: left;
 }
-.contact{
+.panel{
   font-family: 'Open Sans';
   text-align: center;
 }
@@ -128,11 +128,16 @@ footer p {
   margin-top: 10px;
 }
 .page{
-color: orange;
+  color: orange;
+  margin-bottom: 5%;
 }
 .cont-head{
   background: url(../img/contact-us.jpg) no-repeat top center;
   background-size: 100%;
+}
+.label-default{
+  margin-left: 5%;
+  background-color: orange;
 }
 .map{
   margin-left: 5%;
@@ -152,11 +157,4 @@ span{
   font-family: 'Open Sans';
   color: orange;
   font-size: 16px;
-}
-.before-foot{
-  text-align: center;
-  width: 100%;
-  overflow: none;
-  background-color: #d130ab;
-  margin-bottom: 0px;
 }

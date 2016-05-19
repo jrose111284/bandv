@@ -45,7 +45,7 @@
       </div>
     </div>
   </div>
-
+  <h3><span class="label label-default">Where To Find Us</span></h3>
     <div class="row">
       <div class="col-md-6">
         <div class="map">
@@ -86,19 +86,13 @@
         </div>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container before-foot">
-        <h1 class="display-3">lorem ipsum</h1>
-        <p class="lead">Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-    </div>
-
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
 
 
 </body>
-</html>
+
 <footer>
   <div class="container foot">
     <p>
@@ -107,3 +101,4 @@
 
   </div>
 </footer>
+</html>
