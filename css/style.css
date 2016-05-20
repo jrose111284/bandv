@@ -131,14 +131,6 @@ footer {
 footer p {
   margin-top: 10px;
 }
-.page{
-  color: orange;
-  margin-bottom: 5%;
-}
-.cont-head{
-  background: url(../img/contact-us.jpg) no-repeat top center;
-  background-size: 100%;
-}
 .label-default{
   margin-left: 5%;
   background-color: orange;
