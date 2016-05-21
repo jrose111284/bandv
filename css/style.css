@@ -2,6 +2,10 @@ html {
   min-width: 550px;
   position: relative;
 }
+body{
+  margin: 5px;
+  width: 1520px;
+}
 .navbar-nav {
   float: right;
   margin-top: 3%;
@@ -14,10 +18,25 @@ html {
 }
 .jumbotron {
   position: relative;
+  /*font-family: 'Open Sans';
+  font-weight: 500;*/
+  background: url(../img/rainbow.jpg) repeat-y;
+  width: 1720px;
+  height: 500px;
+  /*overflow: none;
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;*/
+  -webkit-animation: jumbotron_roll linear 12s infinite;
+}
+@-webkit-keyframes jumbotron_roll{
+  from { right: 0px;}
+  to { right: 200px;}
+}
+.text{
+  position: relative;;
   font-family: 'Open Sans';
   font-weight: 500;
-  background: url(../img/rainbow.jpg) no-repeat top center;
-  height: 500px;
   overflow: none;
   text-align: center;
   color: white;
