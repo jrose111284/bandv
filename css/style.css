@@ -1,11 +1,11 @@
-/*html {
+html {
   min-width: 550px;
   position: relative;
 }
-body{
+/*body{
   margin: 5px;
   width: 1520px;*/
-}
+
 .navbar-nav {
   float: right;
   margin-top: 3%;
@@ -20,14 +20,22 @@ body{
   position: relative;
   background: url(../img/rainbow.jpg) repeat-x;
   /*width: 1720px;*/
-  height: 500px;
+  /*height: 500px;*/
+  font-family: 'Open Sans';
+  font-weight: 500;
+  margin-top: 50px;
+  overflow: none;
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 16px;
   /*-webkit-animation: jumbotr_roll linear 12s infinite;*/
 }
 /*@-webkit-keyframes jumbotr_roll{
   from { right: 0px;}
   to { right: 200px;}
 }*/
-.text{
+/*.text{
   font-family: 'Open Sans';
   font-weight: 500;
   margin-top: 100px;
@@ -36,8 +44,9 @@ body{
   color: white;
   margin-bottom: 5px;
   font-size: 16px;
-}
+}*/
 .jumbotron-fluid {
+  margin-top: 10px;
   position: relative;
   background: none;
   font-family: 'Open Sans';
@@ -47,15 +56,14 @@ body{
   text-align: center;
   color: black;
   padding-bottom: 10px;
-  margin-right: 150px;
 }
 .jumbotron-fluid .display-3 {
   margin-top: 5px;
-  margin-left: 125px;
   opacity: 0.7;
   text-align: center;
   font-family: 'Open Sans';
   font-size: 36px;
+  text-align: center;
   color: black;
 }
 .jumbotron-fluid .lead {
