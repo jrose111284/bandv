@@ -48,6 +48,32 @@
       </div>
     </div>
   </div>
+  <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="./img/blogs.jpg" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    <p class="media-text">
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </p>
+  </div>
+</div>
+
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+    <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+    <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+    <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+  </ul>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+      <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+      <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+      <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+    </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
