@@ -48,11 +48,42 @@
       </div>
     </div>
   </div>
-
+  <section id="middle">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-4">
+             <img src="img/service-1.png" class="demo">
+             <h2>Lorem Ipsum</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
+             <a href="#" class="btn btn-primary">Read More</a>
+           </div>
+           <div class="col-md-4">
+             <img src="img/service-2.png" class="demo">
+             <h2>Lorem Ipsum</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
+             <a href="#" class="btn btn-primary">Read More</a>
+           </div>
+           <div class="col-md-4">
+             <img src="img/service-3.png" class="demo">
+             <h2>Lorem Ipsum</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
+             <a href="#" class="btn btn-primary">Read More</a>
+           </div>
+         </div>
+       </div>
+     </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
 
 
 </body>
+<footer>
+  <div class="container foot">
+    <p>
+      Copyrights &copy; 2016, All rights reserved
+    </p>
+
+  </div>
+</footer>
 </html>

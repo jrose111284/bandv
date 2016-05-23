@@ -80,4 +80,12 @@
 
 
 </body>
+
+<footer>
+  <div class="container foot">
+    <p>
+      Copyrights &copy; 2016, All rights reserved
+    </p>
+  </div>
+</footer>
 </html>
