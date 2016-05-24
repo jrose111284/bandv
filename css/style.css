@@ -166,6 +166,9 @@ footer {
 footer p {
   margin-top: 10px;
 }
+footer b {
+  float: right;
+}
 .label-default {
   margin-left: 5%;
   background-color: orange;
@@ -234,8 +237,4 @@ img.demo {
   height: 300px;
   padding: 3px;
   border: 1px solid #ccc;
-}
-.priv-pol{
-  float: right;
-  color: white;
 }

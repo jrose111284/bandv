@@ -146,8 +146,8 @@
 </body>
 <footer>
   <div class="container foot">
-    <p>Copyrights &copy; 2016, All rights reserved PrivatePolicy</p>
-  </div>
+    <p>Copyrights &copy; 2016, All rights reserved <b>PrivatePolicy<b></p>
+   </div>
 </footer>
 </html>
 <?php
