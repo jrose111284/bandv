@@ -95,31 +95,31 @@
   <form action="contact.php" method="post">
     <h1>Contact Us</h1>
     <div class="form-group row">
-      <label for="inputEmail3" class="col-sm-2 form-control-label">First Name</label>
+      <label for="inputEmail3" class="col-sm-2 form-control-label">First Name<font color="red">*</font></label>
       <div class="col-sm-10">
-          <input type="text" name="name" class="form-control" id="inputPassword3" placeholder="Last Name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="' . e($fields['name']) . '"' : ''?>>
+          <input type="text" name="name" class="form-control" id="inputPassword3" placeholder="First Name" autocomplete="off" <?php echo isset($fields['name']) ? 'value="' . e($fields['name']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 form-control-label">Last Name</label>
+      <label for="inputPassword3" class="col-sm-2 form-control-label">Last Name<font color="red">*</font></label>
       <div class="col-sm-10">
         <input type="text" name="last" class="form-control" id="inputPassword3" placeholder="Last Name"<?php echo isset($fields['last']) ? 'value="' . e($fields['last']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 form-control-label">Email</label>
+      <label for="inputPassword3" class="col-sm-2 form-control-label">Email<font color="red">*</font></label>
       <div class="col-sm-10">
         <input type="text" name="email" autocomplete="off" class="form-control" id="inputPassword3" placeholder="email" <?php echo isset($fields['email']) ? 'value="' . e($fields['email']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 form-control-label">Contact Number</label>
+      <label for="inputPassword3" class="col-sm-2 form-control-label">Number<font color="red">*</font></label>
       <div class="col-sm-10">
         <input type="text" name="contact" class="form-control" id="inputPassword3" placeholder="Contact Number"<?php echo isset($fields['contact']) ? 'value="' . e($fields['contact']) . '"' : ''?>>
       </div>
     </div>
     <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 form-control-label">Message</label>
+      <label for="inputPassword3" class="col-sm-2 form-control-label">Message<font color="red">*</font></label>
       <div class="col-md-10">
           <textarea name="message" class="form-control" id="exampleTextarea" rows="3"><?php echo isset($fields['message']) ? e($fields['message']) : ''?></textarea>
       </div>
