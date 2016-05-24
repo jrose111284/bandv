@@ -71,21 +71,21 @@
           <div class="box-1">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="services.php" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default blue">Read More</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="box-2">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="services.php" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default green">Read More</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="box-3">
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
-            <a href="services.php" class="btn btn-default">Read More</a>
+            <a href="services.php" class="btn btn-default pink">Read More</a>
           </div>
         </div>
       </div>

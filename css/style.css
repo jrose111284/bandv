@@ -35,8 +35,14 @@ body{
   font-weight: 500;
   font-size: 14px;
 }
-p {
-
+.btn-default.blue {
+ color: #3ca1c9;
+}
+.btn-default.green {
+ color: #a5e067;
+}
+.btn-default.pink {
+ color: #d130ab;
 }
 .jumbotron-fluid {
   margin-top: 10px;
