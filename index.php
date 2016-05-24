@@ -62,11 +62,12 @@
     <div class="container">
       <h1 class="display-3">lorem ipsum</h1>
       <p class="lead">Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p class="lead">Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+      <p class="lead">Lorem ipsum dolor sit amet ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud.</p>
     </div>
   </div>
   <section id="middle">
     <div class="container">
+      <h2 class="mid-title">Lorem Ipsum</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="box-1">
@@ -134,9 +135,7 @@
     </div>
         <div class="panel">
           <?php if(!empty($errors)); ?>
-          <!-- <ul><li> -->
             <?php echo implode('</li><li>', $errors) ?>
-          <!-- </li></ul> -->
         </div>
   </form>
 
@@ -147,10 +146,7 @@
 </body>
 <footer>
   <div class="container foot">
-    <p>
-      Copyrights &copy; 2016, All rights reserved
-    </p>
-
+    <p>Copyrights &copy; 2016, All rights reserved PrivatePolicy</p>
   </div>
 </footer>
 </html>
