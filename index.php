@@ -31,7 +31,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="index.php" class="pull-left"><img class="logo" src="img/logo.png"></a>
+        <a href="index.php" class="pull-left"><img class="logo" src="img/logo-1.png"></a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
@@ -48,9 +48,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <div class="text">
             <h1>lorem ipsum dolor sit amet</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a href="blog.php" class="btn btn-primary">Read More</a>
+          </div>
         </div>
       </div>
     </div>
