@@ -45,6 +45,8 @@ body {
   color: #d130ab;
 }
 .jumbotron-fluid {
+  max-width: 100%;
+  max-height: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -55,7 +57,7 @@ body {
   font-family: 'Open Sans';
   font-weight: 500;
   height: 230px;
-  overflow: none;
+  overflow: hidden;
   text-align: center;
   color: black;
 }
@@ -92,7 +94,7 @@ section {
   font-family: 'Open Sans';
   margin-top: 0;
 }
-.middle h2{
+.middle h2 {
   color: white;
   font-family: 'Open Sans';
 }
@@ -192,7 +194,7 @@ span {
   color: orange;
   font-size: 16px;
 }
-.mid-title{
+.mid-title {
   text-align: center;
   margin-top: 1px;
   margin-bottom: 1px;
