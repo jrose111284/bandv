@@ -47,16 +47,17 @@ body {
 .jumbotron-fluid {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 10px;
   position: relative;
   background: none;
   font-family: 'Open Sans';
   font-weight: 500;
-  height: 300px;
+  height: 230px;
   overflow: none;
   text-align: center;
   color: black;
-  padding-bottom: 10px;
 }
 .jumbotron-fluid .display-3 {
   margin-top: 5px;
@@ -68,7 +69,6 @@ body {
   color: black;
 }
 .jumbotron-fluid .lead {
-  width: 100%;
   font-size: 16px;
   margin-left: 5%;
   margin-right: 5%;
