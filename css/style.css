@@ -2,14 +2,14 @@ html {
   min-width: 550px;
   position: relative;
 }
-body{
+body {
   font-family: 'Open Sans'
 }
 .navbar-nav {
   float: right;
   margin-top: 60px;
 }
-.logo{
+.logo {
   height: 70px;
   margin-top: 10%;
 }
@@ -29,28 +29,30 @@ body{
   margin-bottom: 5px;
   font-size: 16px;
 }
-.text{
+.text {
   margin-top: 100px;
   font-family: 'Open Sans';
   font-weight: 500;
   font-size: 14px;
 }
 .btn-default.blue {
- color: #3ca1c9;
+  color: #3ca1c9;
 }
 .btn-default.green {
- color: #a5e067;
+  color: #a5e067;
 }
 .btn-default.pink {
- color: #d130ab;
+  color: #d130ab;
 }
 .jumbotron-fluid {
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 10px;
   position: relative;
   background: none;
   font-family: 'Open Sans';
   font-weight: 500;
-  height: 200px;
+  height: 300px;
   overflow: none;
   text-align: center;
   color: black;
@@ -78,8 +80,7 @@ body{
 section {
   padding: 40px 0 40px 0;
 }
-.btn-primary{
-
+.btn-primary {
   border: none;
   background: none;
 }
@@ -89,6 +90,10 @@ section {
   color: white;
   font-family: 'Open Sans';
   margin-top: 0;
+}
+.middle h2{
+  color: white;
+  font-family: 'Open Sans';
 }
 .box-1 {
   font-family: 'Open Sans';
@@ -114,10 +119,10 @@ section {
 .btn-primary {
   background-color: #e0832c;
 }
-.btn-warning{
+.btn-warning {
   border: none;
 }
-.btn-default{
+.btn-default {
   border: none;
 }
 form h1 {
@@ -142,7 +147,7 @@ form h1 {
 .btn-warning {
   float: left;
 }
-.panel{
+.panel {
   font-family: 'Open Sans';
   text-align: center;
 }
@@ -157,73 +162,67 @@ footer {
 footer p {
   margin-top: 10px;
 }
-.label-default{
+.label-default {
   margin-left: 5%;
   background-color: orange;
 }
-.map{
+.map {
   margin-left: -10%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.us{
+.us {
   text-align: left;
   padding: 5%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
-  width:80%;
+  width: 80%;
   font-family: 'Open Sans';
 }
-span{
+span {
   font-family: 'Open Sans';
   color: orange;
   font-size: 16px;
 }
-.media-object{
+.media-object {
   height: 204px;
   width: 204px;
   margin-left: 5%;
   margin-top: 5%;
 }
-.media-heading{
+.media-heading {
   margin-top: 50px;
   margin-left: 50px;
   text-align: left;
 }
-.media-text{
+.media-text {
   margin-top: 50px;
   margin-left: 50px;
   text-align: left;
 }
-.media{
+.media {
   border: 2px solid black;
   margin-left: 3%;
   margin-right: 3%;
   margin-bottom: 2%;
 }
-.list-group{
+.list-group {
   margin-left: 3%;
   margin-right: 3%;
 }
-.jumbotron img.app-btn{
-	width:40%;
-	margin-right:30px;
+.jumbotron img.app-btn {
+  width: 40%;
+  margin-right: 30px;
   background-color: blue;
   text-align: center;
 }
-
-.jumbotron img.showcase-img{
-	width:75%;
+.jumbotron img.showcase-img {
+  width: 75%;
 }
-
-img.demo{
-	width:100%;
+img.demo {
+  width: 100%;
   height: 300px;
-	padding:3px;
-	border: 1px solid #ccc;
-}
-.lable:before{
-  content: "*";
-  color: red;
+  padding: 3px;
+  border: 1px solid #ccc;
 }
